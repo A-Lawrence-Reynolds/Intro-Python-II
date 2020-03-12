@@ -3,7 +3,7 @@ from player import Player
 import random
 # Declare all the rooms
 
-potential = ["knife","chestplate","gold","skull"]
+potential = ["Gun","Armor","Knife","Shield"]
 pick = random.choice(potential)
 pick2 = random.choice(potential)
 pick3 = random.choice(potential)
