@@ -3,7 +3,7 @@ from player import Player
 import random
 # Declare all the rooms
 
-potential = ["gun", "armor", "knife", "axe", 'A skin of water']
+potential = ["gun", "armor", "knife", "axe", "A skin of water", "Turkey leg"]
 room = {
     'outside':  Room("Outside Cave Entrance",
                      "North of you, the cave mount beckons.", f'{random.choice(potential)}'),
@@ -26,8 +26,8 @@ earlier adventurers. The only exit is to the south.""", f'{random.choice(potenti
     on the edge of a menacing cliff. The only way to get away from the cliff if to find your way back
      to the cave.""", f'{random.choice(potential)}'),
 
-     'dinning room ': Room('A grand dinning hall fit for a king!',"""you have entered 
-    a wonderful place to eat but any food was eaten long ago, better luck in a different room...."""),
+     'dinning room': Room("A grand dinning hall fit for a king!", """you have entered 
+    a wonderful place to eat but any food was eaten long ago, better luck in a different room....""",f'{random.choice(potential)}'),
 }
 
 
